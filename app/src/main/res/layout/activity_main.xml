@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.scrollingtext.MainActivity">
+
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name_lable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="95dp"
+                android:text="@string/name_text"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="10dp"
+                android:ems="18"
+                android:hint="@string/enter_name_hint"
+                android:inputType="textPersonName" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/student_id"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/student_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="10dp"
+                android:ems="18"
+                android:hint="@string/enter_student_id"
+                android:inputType="number" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/id_card"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/id_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="10dp"
+                android:ems="18"
+                android:hint="@string/id_card_hint"
+                android:inputType="number" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/phone_number_label"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/phone_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="10dp"
+                android:ems="18"
+                android:hint="@string/phone_number_hint"
+                android:inputType="number" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/email"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="10dp"
+                android:ems="18"
+                android:hint="@string/email_addr"
+                android:inputType="textEmailAddress" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/birth_day"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="10dp"
+                android:ems="18"
+                android:hint="@string/choose_your_birthday"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"/>
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/address"
+                android:textSize="20dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="10dp"
+                android:ems="18"
+                android:hint="@string/address_hint"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/hometown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/hometown_label"
+                android:textSize="20dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="10dp"
+                android:ems="18"
+                android:hint="@string/hometown_hint"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/class_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/class_label"
+                android:textSize="20dp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/sameday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="IT2" />
+                <RadioButton
+                    android:id="@+id/nextday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="IT1" />
+                <CheckBox android:id="@+id/checkbox_meat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/agree"
+                    android:onClick="onCheckboxClicked"/>
+            </RadioGroup>
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OK"
+                android:onClick="OK"
+                android:layout_marginLeft="140dp"
+                android:textSize="30dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

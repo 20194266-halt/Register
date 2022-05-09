@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Regiter Form</string>
+    <string name="article_title">Register Form</string>
+    <string name="enter_name_hint">Nhập tên của bạn</string>
+    <string name="name_text">Tên</string>
+    <string name="student_id">MSSV</string>
+    <string name="enter_student_id">Nhập MSSV</string>
+    <string name="id_card">CCCD</string>
+    <string name="id_card_hint">Nhập CCCD</string>
+    <string name="phone_number_label">Số điện thoại</string>
+    <string name="phone_number_hint">Nhập số điện thoại</string>
+    <string name="email">Email</string>
+    <string name="email_addr">Nhập email</string>
+    <string name="address">Địa chỉ</string>
+    <string name="address_hint">Nhập địa chỉ</string>
+    <string name="hometown_label">Quê quán</string>
+    <string name="hometown_hint">Nhập quên quán</string>
+    <string name="class_label">Lớp</string>
+    <string name="agree">Đồng ý với điều khoản sử dụng</string>
+    <string name="birth_day">Ngày sinh</string>
+    <string name="choose_your_birthday">Chọn ngày sinh của bạn</string>
+</resources>
