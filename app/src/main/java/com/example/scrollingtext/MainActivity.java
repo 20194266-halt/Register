@@ -67,11 +67,22 @@ public class MainActivity extends AppCompatActivity {
                 EditText phone = (EditText) findViewById(R.id.phone_number);
                 EditText email = (EditText) findViewById(R.id.email);
 
-                if(name.getText().toString().equals("") ||sid.getText().toString().equals("")||idc.getText().toString().equals("")||phone.getText().toString().equals("")||email.getText().toString().equals(""))
+                if(name.getText().toString().equals("") )
                 {
-                    Toast.makeText(getApplicationContext(), "Vui lòng điền đủ thông tin", Toast.LENGTH_SHORT).show();
+                    name.setError("Tên không được bỏ trống");
                 }
-
+                else if(sid.getText().toString().equals("")){
+                    sid.setError("MSSV không được bỏ trống");
+                }
+                else if(idc.getText().toString().equals("")){
+                    idc.setError("CCCD không được bỏ trống");
+                }
+                else if(phone.getText().toString().equals("")){
+                    phone.setError("SĐT không được bỏ trống");
+                }
+                else  if(email.getText().toString().equals("")){
+                    email.setError("Email không được bỏ trống");
+                }
                 else{
                     Toast.makeText(getApplicationContext(), "Thành công", Toast.LENGTH_SHORT).show();
                 }
